@@ -4,4 +4,11 @@
 		padding-left: 15px;
 		padding-right: 15px;
 	}
+	.site-nav {
+		margin-left: 76px;
+	}
+	.contact {
+		flex-direction: row;
+		gap: 40px;
+	}
 }

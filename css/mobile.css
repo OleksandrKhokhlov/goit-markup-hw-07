@@ -85,7 +85,7 @@ img {
 	border-radius: 4px;
 	border-color: transparent;
 	cursor: pointer;
-	display: inline-block;
+	display: block;
 }
 .container {
 	width: 100%;
@@ -98,9 +98,13 @@ img {
 		margin-left: auto;
 		margin-right: auto;
 	}
+	
 }
 
 /* ---------------------Header--------------------- */
+.header {
+	display: flex;
+}
 .logo {
 	font-family: "Raleway", sans-serif;
 	font-weight: 800;
@@ -109,13 +113,12 @@ img {
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 	color: var(--dark);
-	padding: var(--header-padding);
 }
 .accent-logo {
 	color: var(--primary-brand);
 }
 .header {
-	padding: var(--header-padding);
+	min-height: 70px;
 	border-bottom: 1px solid var(--accent);
 }
 @media screen and (max-width: 767px) {
@@ -187,7 +190,7 @@ img {
 .site-nav-mobile .current {
 	color: var(--pressed-state);
 }
-.contact {
+.contact-mobile {
 	display: flex;
 	flex-direction: column;
 	margin-bottom: 48px;
