@@ -38,11 +38,22 @@
 		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	}
 
-	
 	.advantages-title {
 		text-align: left;
 	}
-	
+	.team-list {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin-left: -24px;
+		margin-top: -64px;
+	}
+	.team-item {
+		margin: 0;
+		margin-left: 24px;
+		margin-top: 64px;
+		flex-basis: calc(100% / 2 - 24px);
+	}
 }
 /* ---------------------Header--------------------- */
 .site-nav .current {
