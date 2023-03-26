@@ -15,6 +15,34 @@
 		margin-left: 120px;
 		gap: 40px;
 	}
+	.hero {
+		background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+			url(../images/dark-bg-tablet.jpg);
+	}
+	@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+		.hero {
+			background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+				url(../images/dark-bg-tablet@2x.jpg);
+		}
+	}
+	.hero-title {
+		max-width: 496px;
+		font-size: 56px;
+		line-height: 1.07;
+		margin-bottom: 36px;
+	}
+	.hero-btn:hover,
+	.hero-btn:focus {
+		background-color: var(--pressed-state);
+		border-color: transparent;
+		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	}
+
+	
+	.advantages-title {
+		text-align: left;
+	}
+	
 }
 /* ---------------------Header--------------------- */
 .site-nav .current {
@@ -67,5 +95,24 @@
 	.contact {
 		line-height: 0;
 	}
+	.advantages-tumb {
+		display: none;
+	}
+	.advantages-list {
+		display: flex;
+	}
 }
-/* ---------------------Hero section--------------------- */
+/* ---------------------Advantages sectionn--------------------- */
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+	.advantages-list {
+		flex-wrap: wrap;
+		flex-direction: row;
+		margin-left: -24px;
+		margin-bottom: -72px;
+	}
+	.advantages-item {
+		margin-left: 24px;
+		margin-bottom: 72px;
+		width: calc(100% / 2 - 24px);
+	}
+}

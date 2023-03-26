@@ -11,4 +11,40 @@
 		flex-direction: row;
 		gap: 40px;
 	}
+	.hero-title {
+		margin-bottom: 48px;
+	}
+	.hero {
+		background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+			url(../images/bg-hero.jpg);
+	}
+	@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+		.hero {
+			background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+				url(../images/bg-hero@2x.jpg);
+		}
+	}
+	.section {
+		padding-top: 120px;
+		padding-bottom: 120px;
+	}
+	.advantages-list {
+		display: flex;
+		justify-content: space-between;
+		gap: var(--horizontal-gap);
+	}
+	.advantages-tumb {
+		min-width: 100%;
+		min-height: 112px;
+		margin-bottom: 8px;
+		background-color: var(--light);
+		border-radius: 4px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.advantages-item {
+		flex-basis: 100%;
+	}
 }
+/* ---------------------Advantages sectionn--------------------- */
