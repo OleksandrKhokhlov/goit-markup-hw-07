@@ -115,19 +115,19 @@
 	color: var(--dark);
 	margin-bottom: 8px;
 } */
-.employment {
+/* .employment {
 	padding-top: 0;
-}
+} */
 .employment-title {
 	color: var(--dark);
 }
-.employment-list {
+/* .employment-list {
 	display: flex;
 	gap: var(--horizontal-gap);
 }
 .employment-item {
 	width: calc(100% / 3 - var(--horizontal-gap));
-}
+} */
 /* team section */
 .team {
 	background-color: var(--light);

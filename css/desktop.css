@@ -47,4 +47,17 @@
 		flex-basis: 100%;
 	}
 }
-/* ---------------------Advantages sectionn--------------------- */
+/* ---------------------Employment section--------------------- */
+.employment {
+	padding-top: 0;
+}
+.employment-title {
+	color: var(--dark);
+}
+.employment-list {
+	display: flex;
+	gap: var(--horizontal-gap);
+}
+.employment-item {
+	flex-basis: 100%;
+}
