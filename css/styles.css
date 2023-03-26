@@ -1,67 +1,12 @@
 
-/* team section */
-/* .team {
-	background-color: var(--light);
-} */
-.team-list {
-	display: flex;
-	gap: var(--horizontal-gap);
-}
-.team-item {
-	width: calc(100% / 4 - var(--horizontal-gap));
-	max-height: 428px;
-	/* background-color: var(--background-color-primary);
-	text-align: center;
-	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-	border-radius: 0px 0px 4px 4px; */
-}
-
-/* .team-item > p {
-	margin-bottom: 8px;
-} */
-/* .team-title {
-	color: var(--dark);
-}
-.team-player {
-	font-weight: 500;
-	font-size: 20px;
-	line-height: 1.2;
-	color: var(--dark);
-	padding-top: 32px;
-	margin-bottom: 8px;
-} */
-.social-list {
-	/* display: flex; */
-	gap: 24px;
-	/* justify-content: center; */
-	padding-bottom: 32px;
-}
-/* .social-link {
-	width: 40px;
-	height: 40px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-color: var(--primary-brand);
-	border-radius: 50%;
-
-	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.social-link:hover,
-.social-link:focus {
-	background-color: var(--pressed-state);
-} */
-
 /* ------------------Customers section----------------------- */
-.customers {
-	padding-top: 130px;
-}
-.customers-list {
+
+/* .customers-list {
 	display: flex;
 	justify-content: center;
 	gap: 24px;
-}
-.customers-tumb {
+} */
+/* .customers-tumb {
 	min-width: 168px;
 	min-height: 88px;
 	color: var(--subtle-text);
@@ -80,7 +25,7 @@
 }
 .customers-icon {
 	fill: currentColor;
-}
+} */
 /* footer */
 .footer {
 	background-color: var(--dark);
