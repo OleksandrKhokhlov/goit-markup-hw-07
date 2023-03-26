@@ -46,6 +46,16 @@
 	.advantages-item {
 		flex-basis: 100%;
 	}
+	.footer-text {
+		max-width: 264px;
+	}
+	.subscribe {
+		margin-left: 80px;
+		margin-top: 0;
+	}
+	.footer-social {
+		margin-left: 120px;
+	}
 }
 /* ---------------------Employment section--------------------- */
 .employment {
