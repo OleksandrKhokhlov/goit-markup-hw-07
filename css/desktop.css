@@ -56,6 +56,9 @@
 	.footer-social {
 		margin-left: 120px;
 	}
+	.modal {
+		height: 584px;
+	}
 }
 /* ---------------------Employment section--------------------- */
 .employment {

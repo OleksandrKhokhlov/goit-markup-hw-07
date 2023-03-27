@@ -77,6 +77,10 @@
 		min-width: 264px;
 		margin-bottom: 0;
 	}
+	.modal {
+		width: 408px;
+		height: 586px;
+	}
 }
 /* ---------------------Header--------------------- */
 .site-nav .current {
