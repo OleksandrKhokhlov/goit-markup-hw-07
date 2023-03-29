@@ -264,9 +264,6 @@ img {
 	color: var(--dark);
 	margin-bottom: 8px;
 }
-.advantages-text {
-	font-weight: 500;
-}
 
 /* ---------------------Team section--------------------- */
 .team {
@@ -306,15 +303,12 @@ img {
 .customers-list {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
-	margin-left: -16px;
-	margin-top: -72px;
+	justify-content: center;	
+    column-gap: 16px;
 }
 .customers-item {
 	min-width: 190px;
 	min-height: 88px;
-	margin-left: 16px;
-	margin-top: 72px;
 }
 .customers-tumb {
 	width: 100%;
