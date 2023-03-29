@@ -15,6 +15,8 @@
 		margin-bottom: 48px;
 	}
 	.hero {
+		padding-top: 188px;
+		padding-bottom: 188px;
 		background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
 			url(../images/bg-hero.jpg);
 	}
