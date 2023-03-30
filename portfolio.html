@@ -31,7 +31,7 @@
 						<li><a class="link-nav link" href="">Contacts</a></li>
 					</ul>
 				</nav>
-				<button type="button" class="mobile-menu-open js-open-menu" >
+				<button type="button" class="mobile-menu-open js-open-menu">
 					<svg width="32" height="22">
 						<use href="./images/icons.svg#menu-burger"></use>
 					</svg>
@@ -45,16 +45,16 @@
 				</address>
 			</div>
 			<!-- Mobile menu -->
-			<div class="mobile-menu js-menu-container" >
+			<div class="mobile-menu js-menu-container">
 				<div class="container mobile-container">
-					<button class="btn-close-menu js-close-menu" type="button" >
+					<button class="btn-close-menu js-close-menu" type="button">
 						<svg width="8" height="8" class="btn-close-icon">
 							<use href="./images/icons.svg#btn-close"></use>
 						</svg>
 					</button>
 
 					<ul class="site-nav-mobile list">
-						<li><a href="./index.html" class="link-nav-mobile  link">Studio</a></li>
+						<li><a href="./index.html" class="link-nav-mobile link">Studio</a></li>
 						<li><a href="./portfolio.html" class="link-nav-mobile current-mobile link">Portfolio</a></li>
 						<li><a href="" class="link-nav-mobile link">Contacts</a></li>
 					</ul>
@@ -99,7 +99,7 @@
 			</div>
 		</header>
 		<main>
-			<section class="portfolio section">
+			<section class="portfolio">
 				<!-- filtr -->
 				<div class="container">
 					<h1 class="visually-hidden">Portfolio</h1>
@@ -115,7 +115,25 @@
 						<li class="card-item">
 							<a class="card link" href="">
 								<div class="card-thumb">
-									<img src="./images/banking.jpg" width="360" height="300" alt="banking app" />
+									<picture>
+										<source srcset="./images/banking.jpg 1x, ./images/banking@2x.jpg 2x" media="(min-width: 1200px)" />
+										<source
+											srcset="./images/banking-tab.jpg 1x, ./images/banking-tab@2x.jpg 2x"
+											media="(min-width: 768px)"
+										/>
+										<source
+											srcset="./images/banking-mob.jpg 1x, ./images/banking-mob@2x.jpg 2x"
+											media="(max-width: 767px)"
+										/>
+										<img
+											srcset="./images/banking-mob.jpg 1x, ./images/banking-mob@2x.jpg 2x"
+											src="./images/banking-mob.jpg"
+											width="396"
+											height="280"
+											alt="banking app"
+										/>
+									</picture>
+
 									<p class="card-overlay">
 										14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic
 										Fruit Ecommerce App · Cloud Storage App
@@ -130,7 +148,28 @@
 						<li class="card-item">
 							<a class="card link" href="">
 								<div class="card-thumb">
-									<img src="./images/cashless-payment.jpg" width="360" height="300" alt="Cashless Payment" />
+									<picture>
+										<source
+											srcset="./images/cashless-payment.jpg 1x, ./images/cashless-payment@2x.jpg 2x"
+											media="(min-width: 1200px)"
+										/>
+										<source
+											srcset="./images/cashless-payment-tab.jpg 1x, ./images/cashless-payment-tab@2x.jpg 2x"
+											media="(min-width: 768px)"
+										/>
+										<source
+											srcset="./images/cashless-payment-mob.jpg 1x, ./images/cashless-payment-mob@2x.jpg 2x"
+											media="(max-width: 767px)"
+										/>
+										<img
+											srcset="./images/cashless-payment-mob.jpg 1x, ./images/cashless-payment-mob@2x.jpg 2x"
+											src="./images/cashless-payment-mob.jpg"
+											width="396"
+											height="280"
+											alt="Cashless Payment"
+										/>
+									</picture>
+
 									<p class="card-overlay">
 										14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic
 										Fruit Ecommerce App · Cloud Storage App
@@ -145,7 +184,28 @@
 						<li class="card-item">
 							<a class="card link" href="">
 								<div class="card-thumb">
-									<img src="./images/meditaion-app.jpg" width="360" height="300" alt="Meditaion App" />
+									<picture>
+										<source
+											srcset="./images/meditaion-app.jpg 1x, ./images/meditaion-app@2x.jpg 2x"
+											media="(min-width: 1200px)"
+										/>
+										<source
+											srcset="./images/meditaion-app-tab.jpg 1x, ./images/meditaion-app-tab@2x.jpg 2x"
+											media="(min-width: 768px)"
+										/>
+										<source
+											srcset="./images/meditaion-app-mob.jpg 1x, ./images/meditaion-app-mob@2x.jpg 2x"
+											media="(max-width: 767px)"
+										/>
+										<img
+											srcset="./images/meditaion-app-mob.jpg 1x, ./images/meditaion-app-mob@2x.jpg 2x"
+											src="./images/meditaion-app-mob.jpg"
+											width="396"
+											height="280"
+											alt="Meditaion App"
+										/>
+									</picture>
+
 									<p class="card-overlay">
 										14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic
 										Fruit Ecommerce App · Cloud Storage App
@@ -160,7 +220,27 @@
 						<li class="card-item">
 							<a class="card link" href="">
 								<div class="card-thumb">
-									<img src="./images/taxi-service.jpg" width="360" height="300" alt="Taxi Service" />
+									<picture>
+										<source
+											srcset="./images/taxi-service.jpg 1x, ./images/taxi-service@2x.jpg 2x"
+											media="(min-width: 1200px)"
+										/>
+										<source
+											srcset="./images/taxi-service-tab.jpg 1x, ./images/taxi-service-tab@2x.jpg 2x"
+											media="(min-width: 768px)"
+										/>
+										<source
+											srcset="./images/taxi-service-mob.jpg 1x, ./images/taxi-service-mob@2x.jpg 2x"
+											media="(max-width: 767px)"
+										/>
+										<img
+											srcset="./images/taxi-service-mob.jpg 1x, ./images/taxi-service-mob@2x.jpg 2x"
+											src="./images/taxi-service-mob.jpg"
+											width="396"
+											height="280"
+											alt="Taxi Service"
+										/>
+									</picture>
 									<p class="card-overlay">
 										14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic
 										Fruit Ecommerce App · Cloud Storage App
@@ -175,7 +255,28 @@
 						<li class="card-item">
 							<a class="card link" href="">
 								<div class="card-thumb">
-									<img src="./images/screen-illustrations.jpg" width="360" height="300" alt="Screen Illustrations" />
+									<picture>
+										<source
+											srcset="./images/screen-illustrations.jpg 1x, ./images/screen-illustrations@2x.jpg 2x"
+											media="(min-width: 1200px)"
+										/>
+										<source
+											srcset="./images/screen-illustrations-tab.jpg 1x, ./images/screen-illustrations-tab@2x.jpg 2x"
+											media="(min-width: 768px)"
+										/>
+										<source
+											srcset="./images/screen-illustrations-mob.jpg 1x, ./images/screen-illustrations-mob@2x.jpg 2x"
+											media="(max-width: 767px)"
+										/>
+										<img
+											srcset="./images/screen-illustrations-mob.jpg 1x, ./images/screen-illustrations-mob@2x.jpg 2x"
+											src="./images/screen-illustrations-mob.jpg"
+											width="396"
+											height="280"
+											alt="Screen Illustrations"
+										/>
+									</picture>
+
 									<p class="card-overlay">
 										14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic
 										Fruit Ecommerce App · Cloud Storage App
@@ -190,7 +291,28 @@
 						<li class="card-item">
 							<a class="card link" href="">
 								<div class="card-thumb">
-									<img src="./images/online-courses.jpg" width="360" height="300" alt="Online Courses" />
+									<picture>
+										<source
+											srcset="./images/online-courses.jpg 1x, ./images/online-courses@2x.jpg 2x"
+											media="(min-width: 1200px)"
+										/>
+										<source
+											srcset="./images/online-courses-tab.jpg 1x, ./images/online-courses-tab@2x.jpg 2x"
+											media="(min-width: 768px)"
+										/>
+										<source
+											srcset="./images/online-courses-mob.jpg 1x, ./images/online-courses-mob@2x.jpg 2x"
+											media="(max-width: 767px)"
+										/>
+										<img
+											srcset="./images/online-courses-mob.jpg 1x, ./images/online-courses-mob@2x.jpg 2x"
+											src="./images/online-courses-mob.jpg"
+											width="396"
+											height="280"
+											alt="Online Courses"
+										/>
+									</picture>
+
 									<p class="card-overlay">
 										14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic
 										Fruit Ecommerce App · Cloud Storage App
@@ -205,7 +327,28 @@
 						<li class="card-item">
 							<a class="card link" href="">
 								<div class="card-thumb">
-									<img src="./images/instagram-stories.jpg" width="360" height="300" alt="Instagram Stories Concept" />
+									<picture>
+										<source
+											srcset="./images/instagram-stories.jpg 1x, ./images/instagram-stories@2x.jpg 2x"
+											media="(min-width: 1200px)"
+										/>
+										<source
+											srcset="./images/instagram-stories-tab.jpg 1x, ./images/instagram-stories-tab@2x.jpg 2x"
+											media="(min-width: 768px)"
+										/>
+										<source
+											srcset="./images/instagram-stories-mob.jpg 1x, ./images/instagram-stories-mob@2x.jpg 2x"
+											media="(max-width: 767px)"
+										/>
+										<img
+											srcset="./images/instagram-stories-mob.jpg 1x, ./images/instagram-stories-mob@2x.jpg 2x"
+											src="./images/instagram-stories-mob.jpg"
+											width="396"
+											height="280"
+											alt="Instagram Stories Concept"
+										/>
+									</picture>
+
 									<p class="card-overlay">
 										14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic
 										Fruit Ecommerce App · Cloud Storage App
@@ -220,7 +363,25 @@
 						<li class="card-item">
 							<a class="card link" href="">
 								<div class="card-thumb">
-									<img src="./images/organic-food.jpg" width="360" height="300" alt="Organic Food" />
+									<picture>
+										<source srcset="./images/organic-food.jpg 1x, ./images/organic-food@2x.jpg 2x" media="(min-width: 1200px)" />
+										<source
+											srcset="./images/organic-food-tab.jpg 1x, ./images/organic-food-tab@2x.jpg 2x"
+											media="(min-width: 768px)"
+										/>
+										<source
+											srcset="./images/organic-food-mob.jpg 1x, ./images/organic-food-mob@2x.jpg 2x"
+											media="(max-width: 767px)"
+										/>
+										<img
+											srcset="./images/organic-food-mob.jpg 1x, ./images/organic-food-mob@2x.jpg 2x"
+											src="./images/organic-food-mob.jpg"
+											width="396"
+											height="280"
+											alt="Organic Food"
+										/>
+									</picture>
+
 									<p class="card-overlay">
 										14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic
 										Fruit Ecommerce App · Cloud Storage App
@@ -235,7 +396,25 @@
 						<li class="card-item">
 							<a class="card link" href="">
 								<div class="card-thumb">
-									<img src="./images/fresh-coffee.jpg" width="360" height="300" alt="Fresh Coffee" />
+									<picture>
+										<source srcset="./images/fresh-coffee.jpg 1x, ./images/fresh-coffee@2x.jpg 2x" media="(min-width: 1200px)" />
+										<source
+											srcset="./images/fresh-coffee-tab.jpg 1x, ./images/fresh-coffee-tab@2x.jpg 2x"
+											media="(min-width: 768px)"
+										/>
+										<source
+											srcset="./images/fresh-coffee-mob.jpg 1x, ./images/fresh-coffee-mob@2x.jpg 2x"
+											media="(max-width: 767px)"
+										/>
+										<img
+										srcset="./images/fresh-coffee-mob.jpg 1x, ./images/fresh-coffee-mob@2x.jpg 2x"
+										src="./images/fresh-coffee-mob.jpg"
+										width="396"
+										height="280"
+										alt="Fresh Coffee"
+									/>
+									</picture>
+									
 									<p class="card-overlay">
 										14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic
 										Fruit Ecommerce App · Cloud Storage App

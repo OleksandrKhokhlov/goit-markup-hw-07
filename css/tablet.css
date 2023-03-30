@@ -55,7 +55,7 @@
 		flex-basis: calc(100% / 2 - 24px);
 	}
 	.customers-list {
-		column-gap: 24px;
+		column-gap: var(--horizontal-gap);
 	}
 	.customers-item {
 		min-width: 168px;
@@ -70,7 +70,7 @@
 	}
 	.subscribe-form {
 		display: flex;
-		gap: 24px;
+		gap: var(--horizontal-gap);
 	}
 	.subscription-input {
 		min-width: 264px;
@@ -79,6 +79,30 @@
 	.modal {
 		width: 408px;
 		height: 586px;
+	}
+	.portfolio {
+		padding-top: 64px;
+		padding-bottom: 96px;
+	}
+	.filtr-list {
+		justify-content: center;
+		margin-bottom: 64px;
+		gap: var(--horizontal-gap);
+	}
+	.filtr-btn {
+		padding: 12px 24px;
+	}
+	.card-set {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 72px var(--horizontal-gap);
+	}
+	.card-thumb {
+		width: 356px;
+	}
+	.card-item {
+		margin: 0;
+		flex-basis: calc(100% / 2 - 24px);
 	}
 }
 /* ---------------------Header--------------------- */
@@ -163,8 +187,7 @@
 		margin-bottom: 72px;
 		width: calc(100% / 2 - 24px);
 	}
-	.footer-description,
-	.subscribe {
+	.footer-description {
 		margin-left: 93px;
 	}
 }
