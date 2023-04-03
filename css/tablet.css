@@ -187,7 +187,7 @@
 		margin-bottom: 72px;
 		width: calc(100% / 2 - 24px);
 	}
-	.footer-description {
-		margin-left: 93px;
+	.footer-container {
+		padding-left: 108px;
 	}
 }
